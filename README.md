@@ -1,3 +1,4 @@
 # lab2
->>make
->>./lab2
+make
+
+./lab2
