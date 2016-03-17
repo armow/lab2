@@ -24,5 +24,7 @@ int main(){
 		v=bmi.getBMI();
 		fileout << fixed << setprecision(2) << bmi.getBMI() << "\t" << bmi.category(v) << endl;
 	}
+	filein.close();
+	fileout.close();
 	return 0;
 }
